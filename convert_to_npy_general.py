@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import csv
 import threading
 import time
-folderprefix = "/fs/class-projects/spring2024/gems497/ge497g00/dicom-LCTSC/"
+folderprefix = "/fs/class-projects/spring2024/gems497/ge497g00/dicom-HRCTCov19-negative-lung-ct/"
 # ds = dcmread(folderpath + "1-001.dcm")
 
 # type(ds.PixelData)
@@ -73,6 +73,7 @@ def conversion(folderpath):
             #if (not os.path.exists("/media/user/Data/doc/npy-out/" + folder_out_path)):
             #    os.makedirs("/media/user/Data/doc/npy-out/" + folder_out_path)
             filenameout = "/fs/class-projects/spring2024/gems497/" + folder_out_path + "-patient-" + pathParts[-3].split('-')[-1] + ".npy"
+            print("Saving: " + filenameout)
             # breakpoint()
             with open(filenameout, "wb+") as f:
                 print("Completed " + filenameout)

@@ -1,0 +1,6 @@
+020-patient-ge497g00.npy
+021-patient-ge497g00.npy
+022-patient-ge497g00.npy
+023-patient-ge497g00.npy
+(203) 0.000000-CT141836RCCT-p1b1  3.0  I30f  3  50 Ex-93830-patient-ge497g00.npy
+(204) 0.000000-CT135949RespCT  3.0  B30f  50 Ex-76339-patient-ge497g00.npy
